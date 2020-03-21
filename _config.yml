@@ -6,7 +6,10 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
+name: Zoe Li
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
 
 defaults:
   -
@@ -21,10 +24,10 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 6
+  limit: 2
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     - EndoVisionDepth
     - kobuki_gazebo_demo
